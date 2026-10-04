@@ -1,0 +1,17 @@
+name: 建議與想看的內容
+description: 想查的東西查不到、哪裡不好用，或想新增的功能
+title: "[建議] "
+labels: ["建議"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 您的建議
+      description: 想在網站上看到什麼，或哪裡用起來不方便
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 相關頁面（可略）
+      placeholder: https://nongminli.tw/

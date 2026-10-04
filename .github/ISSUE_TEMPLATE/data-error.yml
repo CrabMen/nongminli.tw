@@ -1,0 +1,28 @@
+name: 資料有誤
+description: 日期、農曆、節氣、宜忌、假日或出典有錯，請告訴我們
+title: "[資料有誤] "
+labels: ["資料有誤"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 哪一頁
+      description: 請貼上 nongminli.tw 的網址
+      placeholder: https://nongminli.tw/nongminli/2027-02-06
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 哪裡不對
+      description: 頁面上寫的是什麼，您認為應該是什麼
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 依據（可略）
+      description: 例如您手上的通書名稱與頁數、官方公告連結
+  - type: markdown
+    attributes:
+      value: 不方便公開的內容，也可以寫信到 contact@nongminli.tw。

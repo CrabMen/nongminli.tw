@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 寫信給我們
+    url: mailto:contact@nongminli.tw
+    about: 不方便公開的內容，請寫信到 contact@nongminli.tw
+  - name: 回到 nongminli.tw
+    url: https://nongminli.tw/
+    about: 台灣農民曆：今日宜忌、擇日、安太歲與國定假日

@@ -17,7 +17,7 @@
 - [出典與資料來源](https://nongminli.tw/sources)：每一欄出自哪一層：中央氣象署、行政機關辦公日曆表、協紀辨方書、傳統通書記載
 - [關於本站](https://nongminli.tw/about)
 
-## 聯絡
+## 聯絡我們
 
-- GitHub：<https://github.com/CrabMen/nongminli.tw>
-- 信箱：[contact@nongminli.tw](mailto:contact@nongminli.tw)
+- 回報問題或提建議：[在 GitHub 開一則 issue](https://github.com/CrabMen/nongminli.tw/issues/new/choose)（資料有誤、建議都可以）
+- 信箱：[contact@nongminli.tw](mailto:contact@nongminli.tw)（不方便公開的內容請寫信）
