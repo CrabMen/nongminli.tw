@@ -1,0 +1,72 @@
+{
+  "released_on": "2026-11-15",
+  "publisher": "CrabMen / nongminli.tw",
+  "sources": {
+    "solar_terms_2026_2027": [
+      {
+        "url": "https://www.cwa.gov.tw/Data/astronomy/2026cal.pdf",
+        "source_snapshot_sha256": "88a8ab2a59e7ca51835820ab7b56a71b816299972ba8a970a4cb164ac56a043b"
+      },
+      {
+        "url": "https://www.cwa.gov.tw/Data/astronomy/2027cal.pdf",
+        "source_snapshot_sha256": "dffe2cf2668d56da40847df53361b21320d0aece08202185d0910f7382433eb2"
+      }
+    ],
+    "calculated_years": "2020-2025 and 2028-2035; local astronomical computation, not CWA-published values",
+    "climate_url": "https://www.cwa.gov.tw/V8/C/C/Statistics/monthlymean.html",
+    "climate_retrieved_at": "2026-10-03",
+    "climate_source_files": {
+      "tx": {
+        "file": "data-src/cwa-climate/Taiwan_tx.html",
+        "sha256": "0eaa4cab7f3e100ce7c964a04fc9dada509c966d81a366e52c3389c8a0bb071a"
+      },
+      "meantxmax": {
+        "file": "data-src/cwa-climate/Taiwan_meantxmax.html",
+        "sha256": "2768a145617a0fe845da2e87f7907edf31d254593c67aff7aca835408faa31da"
+      },
+      "meantxmin": {
+        "file": "data-src/cwa-climate/Taiwan_meantxmin.html",
+        "sha256": "153b85916214603a98e4f452941a54d18e1db1c22ae080ff362ffffd9f799093"
+      },
+      "precp": {
+        "file": "data-src/cwa-climate/Taiwan_precp.html",
+        "sha256": "f1f67202b2cf8f10c139fcdffb33e7fbba37d90ef8b299faf8e3d8d5cf89717a"
+      },
+      "precpday": {
+        "file": "data-src/cwa-climate/Taiwan_precpday.html",
+        "sha256": "20f4bb61cd8646f341d6564c50e18231f9f6e6a529c02ce97cf923c2eac3d764"
+      },
+      "sunshine": {
+        "file": "data-src/cwa-climate/Taiwan_sunshine.html",
+        "sha256": "250a4889889c462c789391bfb16466188ff34ab1e56bbbee038af0b8eaf9240a"
+      },
+      "txminle10day": {
+        "file": "data-src/cwa-climate/Taiwan_txminle10day.html",
+        "sha256": "a58e0b30c9d2c16c2f61caa738dee3205bc3b31eedd014c5cd42d0cc91f47b30"
+      },
+      "txmaxge30day": {
+        "file": "data-src/cwa-climate/Taiwan_txmaxge30day.html",
+        "sha256": "f46eda7eab524663f9c8df1b9bb42396a8b9b7fb03331e5f974136d921ee2e02"
+      }
+    }
+  },
+  "validation": {
+    "solar_rows": 384,
+    "published_rows": 48,
+    "calculated_rows": 336,
+    "published_vs_calculated_max_abs_minutes_2026_2027": 1.0,
+    "climate_rows": 480,
+    "climate_stations": 5,
+    "climate_metrics": 8
+  },
+  "files": {
+    "taiwan-solar-terms-2020-2035.csv": {
+      "sha256": "a1e15b04bad4f67b8b7f2854de216bdb3ceabf9a342cb52f180b198726bec72c",
+      "rows": 384
+    },
+    "taiwan-climate-normals-five-stations-1991-2020.csv": {
+      "sha256": "e9f84b8543c6c33266a2c57ac369d62dd764f2e1be4405d908bb8ddf49c6e6c0",
+      "rows": 480
+    }
+  }
+}
